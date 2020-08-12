@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: tma-mass-api
+  main:
+    allow-bean-definition-overriding: true
+
+server:
+  port: 8081
+
+logging:
+  level:
+    root: info
+    com.yandream.health: debug
